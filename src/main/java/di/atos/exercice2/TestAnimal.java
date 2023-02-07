@@ -12,6 +12,7 @@ public class TestAnimal {
 
     public static void main(String[] args) {
         
+        
         // Création d'un objet chien avec une référence de Animal
         Animal chien = new Chien();
         chien.parler();
@@ -26,6 +27,7 @@ public class TestAnimal {
         Animal oiseau = new Oiseau();
         oiseau.parler();
         oiseau.deplacement();
+        
         
         // 5 - appel de la méthode voler en utilisant une reference de oiseau
         Oiseau oiseau2 = new Oiseau();
